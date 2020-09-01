@@ -1,91 +1,101 @@
 body {
-  background-color: #f4f9f4;
-  margin: 0;
+  font-family: sans-serif;
+  background-color: #fff;
 }
 
 h1 {
-  font-size: 4rem;
   font-family: serif;
-}
+  font-weight: bolder;
+  font-size: 3.75rem;
 
-p{
-  color: grey;
 }
 /* Navigation Bar */
 
-.collapse {
-  display: inline-block;
-  font-size: 1.25rem;
-  margin-left: 150px;
-}
-
-.navbar-brand {
-  padding: 20px;
-}
-.dropdown-menu {
-  border: none;
+.container-fluid {
   background-color: black;
-  font-size: 1.25rem;
+
 }
 
-.dropdown-menu>a:hover {
-  background-color: #222831;
-  color: #fff;
-}
 .dropdown-item {
   color: #fff;
-  background-color: black;
+  font-size: 1.25rem;
 }
 
-.hamburger-button {
+.dropdown-item:hover{
+  background-color: #393e46;
   color: #fff;
 }
 
-/* Gallery Section */
-
-.container-info {
-  width: 60%;
-  text-align: center;
-  margin: 0 auto;
+.dropdown-item:focus {
+  background-color: black;
+  color: #fff;
 }
+
+
+.dropdown-menu {
+  background-color: black;
+}
+
+/* Safety Certification Section */
+
+.lead {
+  width: 60%;
+  font-size: 1.10rem;
+  color: grey;
+
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+
+
+/* Cards Section */
 
 .album {
-  margin: 2% 2.5%;
-}
 
-/* .title {
+  background-color: #fff;
+  padding: 0 1.5% 2%;
+}
+/* Socials */
+
+#footer {
+  padding: 2.5%;
   text-align: center;
-  margin: auto;
-  background-color: #bceea7;
 }
 
-
-#course-carousel {
-  text-align: center;
-  background-color: #bceea7;
+#contacts {
+  color: #fff;
 }
 
-.carousel-image {
-  border-radius: 30px;
-  border-style: solid;
-  border-width: thick 10px;
+/* @media screen (min-width:600px) {
+   .jumbotron {
+    text-align: center;
+
+  }
 } */
 
+/* Carousel Page Sections */
 
-/* Footer Section */
+/* Carousel Section */
 
-.container-footer {
-  background-color: black;
-  padding: 2%;
+.carousel-text {
+  color: grey;
+}
+/* title Sections */
+
+.title {
+  text-align: center;
+  padding: 2.5%;
 }
 
-.social-link {
-  color: #fff;
-  background-color: transparent;
-  margin-left: 30%;
+#course-carousel {
+  padding: 2.5%;
+  background-color: grey;
 }
+.Safety-Courses-Text {
+  width: 50%;
+  margin: auto;
+  padding: 2.5%;
 
-.social-link:hover {
-  color: #222831;
-  text-decoration: none;
 }
