@@ -36,6 +36,7 @@ h1 {
   background-color: black;
 }
 
+
 /* Safety Certification Section */
 
 .lead {
@@ -73,38 +74,51 @@ h1 {
 .copyright {
   text-align: center;
   color: black;
-  background-color: yellow;
-  padding: 2%;
+  background-color: #f3e289;
+  padding: 1.5%;
 }
-/* @media screen (min-width:600px) {
-   .jumbotron {
-    text-align: center;
 
+@media (max-width: 900px) {
+
+  body {
+    text-align: center;
+    margin: auto;
   }
-} */
+  .lead {
+    margin: auto;
+  }
+}
 
 /* Carousel Page Sections */
 
 /* Carousel Section */
 
-.carousel-text {
-  color: grey;
+.course-text {
+  color: #fff;
+  width: 40%;
+  margin: auto;
 }
 /* title Sections */
 
 .title {
   text-align: center;
-  padding: 2.5%;
+  padding: 3%;
+  background-color: #fff;
 }
 
+.safety-title {
+margin: 0 auto 2%;
+}
 #course-carousel {
   padding: 2.5%;
-  background-color: grey;
+  background-color: black;
+  width: 70%;
+  margin: auto;
 }
+
 .Safety-Courses-Text {
   width: 50%;
   margin: auto;
   padding: 2.5%;
 
 }
-
