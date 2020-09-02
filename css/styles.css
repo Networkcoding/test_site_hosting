@@ -58,6 +58,11 @@ h1 {
   background-color: #fff;
   padding: 0 1.5% 2%;
 }
+
+.card-body {
+  padding: 1.25rem;
+}
+
 /* Socials */
 
 #footer {
